@@ -1,20 +1,75 @@
-/* li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+body {
+  background-color: orange;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0;
 }
 
-.label {
-  font-weight: bold;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 280px;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+#title {
+  text-align: center;
 }
 
-.form-group {
-  margin-bottom: 5px;
-} */
-  
+.orders {
+  float: left;
+  font-family: arial;
+  margin-left: 100px;
+}
+
+.devoured {
+  float: right;
+  font-family: arial;
+  margin-right: 100px;
+}
+
+.form {
+  clear: both;
+  margin: auto;
+  width: 18%;
+}
+
+.add-burger-title {
+  text-align: center;
+}
+
+.create-form {
+  text-align: center;
+}
+
+#brg {
+  border-radius: 20px;
+  padding: 7px;
+}
+
+/* BUTTONS */
+.change-devoured {
+  background-color: green;
+  color: yellow;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.delete-burger {
+  background-color: red;
+  color: yellow;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#build {
+  background-color: rgb(38, 195, 235);
+  color: rgb(5, 5, 0);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
